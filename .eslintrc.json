@@ -20,15 +20,21 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
+    "class-methods-use-this": "off",
+    "no-underscore-dangle": "off",
+    "prettier/prettier": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnoredPattern": "_" }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
       {
         "ts": "never"
       }
-    ],
-    "prettier/prettier": "error"
+    ]
   },
   "settings": {
     "import/resolver": {
