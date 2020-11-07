@@ -1,6 +1,9 @@
-node_modules
-dist
-.vscode
+node_modules/
+dist/
+.vscode/
+tmp/*
+!tmp/.gitkeep
+temp/
 
 yarn.lock
 package-lock.json
