@@ -5,7 +5,4 @@ tmp/*
 !tmp/.gitkeep
 temp/
 
-yarn.lock
-package-lock.json
-
 *.log
